@@ -1,61 +1,113 @@
-body{
-    font-family:var(--mainfont);
+body {
+    font-family: var(--mainfont);
 }
-.header{
+
+.header {
     padding: 57px 0px;
 }
-.header ul{
+
+.header ul {
     display: flex;
     flex-wrap: wrap;
-    gap:35px;
+    gap: 35px;
 }
-.bar{
-    display:none ;
+
+.bar {
+    display: none;
 }
+
 .list a {
-    color:rgb(85, 69, 175)
+    color: rgb(85, 69, 175)
 }
-.header .active{
-    color:var(--primary);
+
+.header .active {
+    color: var(--primary);
 }
-.search form{
+
+.search form {
     border: 5px solid #E7E6EF;
     border-radius: 5px;
 }
-.search input{
+
+.search input {
     border: none;
     outline: none;
-    padding-left: 9px ;
+    padding-left: 9px;
     width: 250px;
 }
-.search button{
+
+.search button {
     border: none;
     outline: none;
     background-color: var(--primary);
-    padding:8px 13px ;
+    padding: 8px 13px;
 }
-@media screen and (max-width : 1200px){
-    .list,.search{
+
+@media screen and (max-width : 1200px) {
+
+    .list,
+    .header .search {
         display: none;
     }
-     .bar{
+
+    .bar {
         display: block;
     }
 }
-.footer{
+
+.footer {
     background-color: #EEEFFB;
-    padding:50px 0px ;
+    padding: 50px 0px;
 }
-.footer a,.address-info{
-    color:#8A8FB9;
+
+.footer .row {
+    gap: 30px;
 }
-.footer-item{
-    gap: 45px;
+
+ .footer a, .address-info {
+    color: #8A8FB9;
 }
+
+
+
 .footer .left-side {
-    gap:35px;
-    align-items:flex-start ;
+    gap: 35px;
+    align-items: flex-start;
+    width: calc((100%-30px)/2);
 }
+
 .footer .right-side {
-    width: 60%;
+    width: calc((100%-30px)/2);
+}
+
+.footer .right-side .row {
+    gap: 35px;
+    align-items: flex-start;
+}
+
+.footer-item {
+    gap: 45px;
+    width: calc((100% - 70px)/ 3);
+}
+
+@media screen and (max-width:992px) {
+
+    .footer .left-side,
+    .footer .right-side {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .footer {
+        text-align: center;
+    }
+
+    .footer-item {
+        width: 100%;
+    }
+}
+
+form {
+    display: flex;
 }
