@@ -54,7 +54,54 @@ body {
         display: block;
     }
 }
+/* end header */
+/*  start newslater*/
 
+.newslater{
+    background-image:url('./imag/public/Rectangle\ 102.webp') ;
+    padding: 175px 0;
+    text-align: center;
+    
+}
+.newslater h2{
+    margin-bottom: 50px;
+    color: #151875;
+    font-size:35px;
+}
+.shop-btn{
+    transition:all .5s;
+}
+.shop-btn:hover {
+background-color:#151875;
+}
+
+
+/* start clintes */
+.clientes{
+padding: 50px 0;
+}
+.clientes .row{
+    flex-wrap: nowrap;
+    gap: 15px;
+overflow-x: auto;
+}
+.clientes .logo{
+    width: calc((100% - 75px) / 6);
+}
+.clientes img{
+    width : 150px;
+    height: 150px;
+}
+@media screen and (max-width:900px) {
+    .clientes .logo{
+        width: calc((100% - 30px)/3);
+    }
+}
+
+
+
+
+/* start foooter */
 .footer {
     background-color: #EEEFFB;
     padding: 50px 0px;
