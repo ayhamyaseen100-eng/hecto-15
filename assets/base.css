@@ -78,3 +78,12 @@ flex-direction: column;
 .gap-4{
     gap:25px;
 }
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
