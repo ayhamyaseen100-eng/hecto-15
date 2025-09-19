@@ -78,6 +78,9 @@ flex-direction: column;
 .gap-4{
     gap:25px;
 }
+.gap-5{
+    gap:103px;
+}
 .text-center{
     text-align: center;
 }
@@ -86,4 +89,10 @@ flex-direction: column;
 }
 .text-left{
     text-align: left;
+}
+.text-primary{
+    color:var(--primary);
+}
+.text-secondary{
+    color:#151875;
 }
