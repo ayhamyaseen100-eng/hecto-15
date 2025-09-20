@@ -319,6 +319,47 @@ h2{
     bottom:67px;
      cursor: pointer;
 }
+/* what shops offer*/
+.shopex{
+    padding-top: 58px;
+    padding-bottom: 55px;
+}
+.img3{
+     width: 80px;
+    height: 80px;
+    object-fit: contain;
+    padding-top: 15px;
+   
+}
+.product3{
+    display: flex;
+    flex-wrap: wrap;
+    gap:28px;
+      justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+.out{
+    width: 270px; 
+       flex-grow: 1; 
+         flex-wrap: wrap;
+    height: 320px;
+      flex-basis: 270px;
+      box-shadow: 0px 0px 8px #00000040;
+    
+}
+.line1-shop{
+color:#151875;
+font-size: 22px;
+padding-top: 22px;
+padding-left: 30px;
+padding-right: 27px;
+}
+.line2-shop{
+color:#a9a2c7;
+padding:20px 40px 10px 26px;
+font-size: 21px;
+}
 /*  start newslater*/
 
 .newslater{
