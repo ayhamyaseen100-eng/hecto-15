@@ -400,6 +400,56 @@ font-size: 21px;
       flex-basis: 270px;
       
 }
+/* start Top Categrise */
+.product5{
+     width: 270px; 
+     flex-grow: 1;
+         flex-wrap: wrap;
+    height: 350px;
+      flex-basis: 270px;
+position: relative;
+}
+.product5:hover .btnh2{
+    display: block;
+}
+.img6{
+        width: 300px;
+    height: 300px;
+   padding: 15px;
+    background-color: #F5F6F8;
+    border-radius: 50%;
+    
+      
+   
+}
+
+.product5:hover .img6{
+    
+     box-shadow: -6px 8px 0px #9165b4;
+}
+.btnh2{
+     width: 94px;
+    height: 29px;
+    color:#FFFFFF;
+    background-color: #08D15F;
+    border-radius: 2px;
+     display: none;
+      position: absolute;
+    top:250px;
+    left:165px;
+    right:90px;
+    bottom:80px;
+}
+.text6{
+    padding: 3px;
+    color: #151875;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.textt{
+   display: flex;
+   flex-direction: column;
+  padding: 10px;
+}
 /*  start newslater*/
 
 .newslater{
