@@ -1,7 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+html,body{
+    overflow-X: hidden;
 }
 a{
     text-decoration: none;
@@ -35,6 +33,7 @@ ul{
 .container{
     width: calc(100% - 320px);
     margin: auto;
+    
 }
 @media screen and (max-width : 1400px) {
     .container{
